@@ -119,11 +119,11 @@ body{
 /* Add Item  */
 .add-item{
     position: relative;
-    width: 100%;
     height:40px;
     background-color: #FFF;
     padding: 10px;
     border-top: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0 0 15px 15px;
 }
 .add-item i{
     position: absolute;
