@@ -1,6 +1,6 @@
 /* Body */
 *, *::before, *::after {
-    transition: 2s;
+    transition: .2s;
 }
 
 body{
@@ -120,6 +120,7 @@ body{
 .add-item{
     position: relative;
     height:40px;
+    width:350px ;
     background-color: #FFF;
     padding: 10px;
     border-top: 1px solid rgba(0,0,0,0.1);
@@ -135,7 +136,6 @@ body{
     position: absolute;
     left: 50px;
     height: 35px;
-    width: 310px;
     background-color: transparent;
     border: none;
     font-size: 20px;
