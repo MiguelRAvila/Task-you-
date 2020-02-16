@@ -13,7 +13,7 @@ const LINE_THROUGH = "lineThrough";
 
 let LIST, id;
 
-//Obtener las tareas del almacenamiento local
+//Get task from local Storage
 let data = localStorage.getItem("TODO");
 
 if (data) {
