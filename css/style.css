@@ -4,7 +4,6 @@
 }
 
 body{
-    padding: 10px;
     margin: 0;
     background-color: rgba(0,0,0,0.1);
     font-family: 'Titillium Web', sans-serif;
@@ -22,7 +21,6 @@ body{
     height:200px;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/bg.jpg');
     background-repeat: no-repeat;
-    border-radius: 15px 15px 0 0;
     position: relative;
 }
 .clear{
