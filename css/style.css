@@ -5,22 +5,16 @@
 
 body{
     margin: 0;
-    background-color: rgba(0,0,0,0.1);
+    background-color: white;
     font-family: 'Titillium Web', sans-serif;
 }
-
-/* contenedor */
-.contenedor{
-    width:100%;
-    margin:0 auto;
-}
-
 /* Header  */
 .header{
     width: 100%;
-    height:200px;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/bg.jpg');
-    background-repeat: no-repeat;
+    height: 30vh;
+    /* background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/bg.jpg'); */
+    /* background-repeat: no-repeat; */
+    background: #C4C4C4;
     position: relative;
 }
 .clear{
@@ -52,9 +46,8 @@ body{
 /* contenido  */
 .contenido{
     width:100%;
-    height: 350px;
-    max-height:350px;
-    background-color: #FFF;
+    height: 60vh;
+    /* background-color: rgba(0,0,0,0.1); */
     overflow: auto;
 }
 .contenido::-webkit-scrollbar { 
@@ -65,14 +58,21 @@ body{
     margin:0;
 }
 .item{
-    width:100%;
-    height: 45px;
-    min-height: 45px;
+
     position: relative;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    height: 7vh;
+    width: 90vw;
+    background-color: #c4c4c4;
+    padding: 3px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+
+    min-height: 45px;
     list-style: none;
     padding: 0;
-    margin: 0;
+    /* margin: 0; */
 }
 .item i.co{
     position: absolute;
@@ -117,14 +117,17 @@ body{
 /* Add Item  */
 .add-item{
     position: relative;
-    height:40px;
-    background-color: #FFF;
-    padding: 10px;
+    height: 7vh;
+    width: 90vw;
+    background-color: #c4c4c4;
+    padding: 3px;
     border-top: 1px solid rgba(0,0,0,0.1);
-    border-radius: 0 0 15px 15px;
+    margin: auto;
+    border-radius: 5px;
 }
 .add-item i{
     position: absolute;
+    margin-left: 7px;
     font-size: 40px;
     color: #4162f6;
 }
@@ -137,6 +140,7 @@ body{
     border: none;
     font-size: 20px;
     padding-left:10px;
+    width: 70%;
 }
 .add-item input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #4162f6;
