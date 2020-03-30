@@ -6,7 +6,7 @@
 body{
     margin: 0;
     background-color: white;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 /* Header  */
 .header{
@@ -40,7 +40,7 @@ body{
     left: 10px;
     color: #FFF;
     font-size: 25px;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* contenido  */
@@ -143,22 +143,22 @@ body{
 }
 .add-item input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #4162f6;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 20px;
 }
 .add-item input::-moz-placeholder { /* Firefox 19 */
     color: #4162f6;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 20px;
 }
 .add-item input:-ms-input-placeholder { /* IE 10 */
     color: #4162f6;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 20px;
 }
 .add-item input:-moz-placeholder { /* Firefox 18 */
     color: #4162f6;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 20px;
 }
 
