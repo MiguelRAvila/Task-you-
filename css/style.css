@@ -135,6 +135,19 @@ body{
     cursor: pointer;
 }
 
+@media screen and (max-width: 375px) {
+    .item {
+        height: 5vh;
+    }
+    .item p.text{
+        position: absolute;
+        padding:0;
+        margin: 8px;
+        font-size: 15px;
+        
+    }
+}
+
 /* Add Item  */
 .add-item{
     position: relative;
