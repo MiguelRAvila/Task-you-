@@ -42,21 +42,19 @@ body{
     text-shadow: 1px 3px 5px #01161E;
     transform: rotate(45deg);
 }
-
 #date{
     position: absolute;
-    bottom: 10px;
-    left: 5vw;
+    
+    margin-left: 20px;
+    margin-top: 25px;
+    /* left: 5vw; */
     color: #01161E;
-    font-size: 25px;
+    font-size: 50px;
     font-family: 'Work Sans', sans-serif;
 }
 @media screen and (max-width: 375px) {
-    .title {
-        font-size: 30px;
-    }
     #date {
-        font-size: 20px;
+        font-size: 25px;
     }
     .clear i{
         font-size: 20px;

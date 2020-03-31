@@ -39,10 +39,10 @@ clear.addEventListener("click", function () {
 })
 
 // Mostrar fecha
-const options = { month: "short", day: "numeric", weekday: "long" };
+const options = { month: "long", day: "numeric" };
 const today = new Date();
 
-dateElement.innerHTML = today.toLocaleDateString("es-US", options);
+dateElement.innerHTML = today.toLocaleDateString("es-MX", options);
 
 // Añadir una tarea
 
