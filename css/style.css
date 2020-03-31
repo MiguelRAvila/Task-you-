@@ -141,11 +141,17 @@ body{
     }
     .item p.text{
         position: absolute;
-        padding:0;
-        margin: 8px;
+        padding-top: 3px;
+        margin: 5px;
         font-size: 15px;
-        
     }
+    .item i.de {
+        font-size: 20px;
+    }
+    .item i.co {
+        font-size: 20px;
+    }
+
 }
 
 /* Add Item  */
