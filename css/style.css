@@ -17,12 +17,18 @@ body{
     background: #C4C4C4;
     position: relative;
 }
+.title {
+    position: absolute;
+    right: 45vw;
+    margin-top: 50px;
+    font-size: 3rem;
+}
 .clear{
     width : 30px;
     height: 30px;
     position: absolute;
-    right:20px;
-    top: 20px;
+    right: 5vw;
+    bottom: 10px;
 }
 .clear i{
     font-size: 30px;
@@ -37,7 +43,7 @@ body{
 #date{
     position: absolute;
     bottom: 10px;
-    left: 10px;
+    left: 5vw;
     color: #FFF;
     font-size: 25px;
     font-family: 'Work Sans', sans-serif;
@@ -64,7 +70,7 @@ body{
     width: 90vw;
     background-color: #c4c4c4;
     padding: 3px;
-    border-top: 1px solid rgba(0,0,0,0.1);
+    
     margin: auto;
     margin-top: 10px;
     border-radius: 5px;
@@ -72,6 +78,8 @@ body{
     min-height: 45px;
     list-style: none;
     padding: 0;
+
+    border-bottom: 1px solid rgba(0,0,0,0.1);
     /* margin: 0; */
 }
 .item i.co{
@@ -85,13 +93,13 @@ body{
     cursor: pointer;
 }
 .fa-check-circle{
-    color:#6eb200;
+    color:#FFF;
 }
 
 .item p.text{
     position: absolute;
     padding:0;
-    margin:0;
+    margin: 5px;
     font-size: 20px;
     left:50px;
     top:5px;
