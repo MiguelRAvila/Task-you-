@@ -14,7 +14,8 @@ body{
     height: 30vh;
     /* background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/bg.jpg'); */
     /* background-repeat: no-repeat; */
-    background: #F5B841;
+    /* background: #F5B841; */
+    background: #425195;
     position: relative;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -29,15 +30,19 @@ body{
 }
 
 .clear{
-    width : 30px;
-    height: 30px;
+    width : 50px;
+    height: 50px;
     position: absolute;
     right: 5vw;
     bottom: 10px;
+    background: #F5B841;
+    border-radius: 50%;
 }
 .clear i{
     font-size: 30px;
     color: #01161E;
+    margin-left: 15px;
+    margin-top: 15px;
 }
 .clear i:hover{
     cursor: pointer;
@@ -50,7 +55,7 @@ body{
     margin-left: 20px;
     margin-top: 25px;
     /* left: 5vw; */
-    color: #01161E;
+    color: white;
     font-size: 50px;
     font-family: 'Work Sans', sans-serif;
 }
